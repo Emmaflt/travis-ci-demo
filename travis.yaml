@@ -1,0 +1,7 @@
+language: java
+jdk:
+  - openjdk17
+
+script:
+  - cd travis-demo  # Aller dans le bon dossier
+  - mvn clean test  # Exécuter les tests Maven
